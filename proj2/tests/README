@@ -1,0 +1,22 @@
+Scripts for testing project 2
+These will be used for grading the project, but they should be useful
+in development too. 
+
+Use the .sh version for Linux and Mac (use chmod +x *.sh first)
+Use the .cmd version for Windows
+Note that you also need product.json and order.json to run these
+
+Usage:
+On topcat: running servertest0.sh to test eoneils proj2_server:
+servertest0.sh eoneil
+
+On development PC system, with project at htdocs/cs637/username/proj2/proj2_server:
+servertest0 username
+
+servertest series: test proj2_server only
+servertest0: tests provided functionality of proj2_server
+servertest1: test that server day number can be set, setting of day 0 reinitializes orders
+servertest2: setting day 0 to reinit orders, then sending an order in, can get order back as order 1, or possibly a higher number on reruns
+servertest3: like servertest2, then set server day to 3, get order back, should be delivered 
+
+
