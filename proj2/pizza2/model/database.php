@@ -4,7 +4,7 @@
 // --load your mysql database on topcat with the pizza db
 // Then this code figures out which setup to use at runtime
 if (gethostname() === 'topcat') {
-    $username = 'jiaant';  // REPLACE THIS with your cs.umb.edu username
+    $username = 'xxxxx';  // REPLACE THIS with your cs.umb.edu username
     $password = $username;  // pw for mysql DB on topcat (or change this too)
     $dsn = 'mysql:host=localhost;dbname='. $username . 'db';
 } else {  // dev machine, can create pizzadb

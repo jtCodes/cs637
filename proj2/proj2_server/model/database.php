@@ -1,7 +1,7 @@
 <?php
 // Set up the database connection
 if (gethostname() === 'topcat') {
-    $username = 'jiaant';  // mysql username on topcat is UNIX username
+    $username = 'xxxxx';  // mysql username on topcat is UNIX username
     $password = $username;
     $location = '/cs637/' . $username;  // where on server: student dir
 
